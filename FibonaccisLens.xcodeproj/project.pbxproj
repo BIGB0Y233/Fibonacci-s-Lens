@@ -7,23 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0667A3733EF7DCB10A205AFD /* Pods_FibonaccisLens.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2717A73C724894DDE9E3F5F6 /* Pods_FibonaccisLens.framework */; };
 		571C79C0275D0F06007BED19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571C79BF275D0F06007BED19 /* AppDelegate.swift */; };
 		571C79C2275D0F06007BED19 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571C79C1275D0F06007BED19 /* SceneDelegate.swift */; };
-		571C79C4275D0F06007BED19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571C79C3275D0F06007BED19 /* ViewController.swift */; };
 		571C79C7275D0F06007BED19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 571C79C5275D0F06007BED19 /* Main.storyboard */; };
 		571C79C9275D0F07007BED19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 571C79C8275D0F07007BED19 /* Assets.xcassets */; };
 		571C79CC275D0F07007BED19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 571C79CA275D0F07007BED19 /* LaunchScreen.storyboard */; };
+		571C79E4275D1863007BED19 /* SegmentationResultMLMultiArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571C79D5275D1862007BED19 /* SegmentationResultMLMultiArray.swift */; };
+		571C79E5275D1863007BED19 /* PhotoCaptureDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571C79D6275D1862007BED19 /* PhotoCaptureDelegate.swift */; };
+		571C79E6275D1863007BED19 /* FaceParsing.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 571C79D8275D1863007BED19 /* FaceParsing.mlmodel */; };
+		571C79E7275D1863007BED19 /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571C79D9275D1863007BED19 /* VideoCapture.swift */; };
+		571C79E8275D1863007BED19 /* CameraTextureGenerater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571C79DB275D1863007BED19 /* CameraTextureGenerater.swift */; };
+		571C79E9275D1863007BED19 /* MetalRenderingDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571C79DC275D1863007BED19 /* MetalRenderingDevice.swift */; };
+		571C79EA275D1863007BED19 /* Maths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571C79DE275D1863007BED19 /* Maths.swift */; };
+		571C79EB275D1863007BED19 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 571C79E0275D1863007BED19 /* Shaders.metal */; };
+		571C79EC275D1863007BED19 /* MetalVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571C79E1275D1863007BED19 /* MetalVideoView.swift */; };
+		571C79ED275D1863007BED19 /* Texture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571C79E2275D1863007BED19 /* Texture.swift */; };
+		571C79EE275D1863007BED19 /* CroppedTextureGenerater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571C79E3275D1863007BED19 /* CroppedTextureGenerater.swift */; };
+		571C79F4275D1D0E007BED19 /* cameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571C79F3275D1D0E007BED19 /* cameraViewController.swift */; };
+		571C79F6275D3D87007BED19 /* WelcomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571C79F5275D3D87007BED19 /* WelcomViewController.swift */; };
+		571C79F8275DCB93007BED19 /* DocViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571C79F7275DCB93007BED19 /* DocViewController.swift */; };
+		57766BEE2760ED19004341D7 /* PhotoLibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57766BED2760ED19004341D7 /* PhotoLibraryViewController.swift */; };
+		57766BF02760F99F004341D7 /* seagueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57766BEF2760F99F004341D7 /* seagueViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2717A73C724894DDE9E3F5F6 /* Pods_FibonaccisLens.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FibonaccisLens.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C8131AEE2847CD415803A15 /* Pods-FibonaccisLens.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FibonaccisLens.debug.xcconfig"; path = "Target Support Files/Pods-FibonaccisLens/Pods-FibonaccisLens.debug.xcconfig"; sourceTree = "<group>"; };
 		571C79BC275D0F06007BED19 /* FibonaccisLens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FibonaccisLens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		571C79BF275D0F06007BED19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		571C79C1275D0F06007BED19 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		571C79C3275D0F06007BED19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		571C79C6275D0F06007BED19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		571C79C8275D0F07007BED19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		571C79CB275D0F07007BED19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		571C79CD275D0F07007BED19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		571C79D5275D1862007BED19 /* SegmentationResultMLMultiArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentationResultMLMultiArray.swift; sourceTree = "<group>"; };
+		571C79D6275D1862007BED19 /* PhotoCaptureDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCaptureDelegate.swift; sourceTree = "<group>"; };
+		571C79D8275D1863007BED19 /* FaceParsing.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FaceParsing.mlmodel; sourceTree = "<group>"; };
+		571C79D9275D1863007BED19 /* VideoCapture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
+		571C79DB275D1863007BED19 /* CameraTextureGenerater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraTextureGenerater.swift; sourceTree = "<group>"; };
+		571C79DC275D1863007BED19 /* MetalRenderingDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalRenderingDevice.swift; sourceTree = "<group>"; };
+		571C79DE275D1863007BED19 /* Maths.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Maths.swift; sourceTree = "<group>"; };
+		571C79E0275D1863007BED19 /* Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		571C79E1275D1863007BED19 /* MetalVideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalVideoView.swift; sourceTree = "<group>"; };
+		571C79E2275D1863007BED19 /* Texture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Texture.swift; sourceTree = "<group>"; };
+		571C79E3275D1863007BED19 /* CroppedTextureGenerater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CroppedTextureGenerater.swift; sourceTree = "<group>"; };
+		571C79F3275D1D0E007BED19 /* cameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cameraViewController.swift; sourceTree = "<group>"; };
+		571C79F5275D3D87007BED19 /* WelcomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomViewController.swift; sourceTree = "<group>"; };
+		571C79F7275DCB93007BED19 /* DocViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocViewController.swift; sourceTree = "<group>"; };
+		57766BED2760ED19004341D7 /* PhotoLibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibraryViewController.swift; sourceTree = "<group>"; };
+		57766BEF2760F99F004341D7 /* seagueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = seagueViewController.swift; sourceTree = "<group>"; };
+		82568190F2CF1B3E2839C320 /* Pods-FibonaccisLens.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FibonaccisLens.release.xcconfig"; path = "Target Support Files/Pods-FibonaccisLens/Pods-FibonaccisLens.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0667A3733EF7DCB10A205AFD /* Pods_FibonaccisLens.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +77,8 @@
 			children = (
 				571C79BE275D0F06007BED19 /* FibonaccisLens */,
 				571C79BD275D0F06007BED19 /* Products */,
+				AA88F89BCAF258A052519E27 /* Pods */,
+				BCF4A3AAF93EC4CB7E33554B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +95,77 @@
 			children = (
 				571C79BF275D0F06007BED19 /* AppDelegate.swift */,
 				571C79C1275D0F06007BED19 /* SceneDelegate.swift */,
-				571C79C3275D0F06007BED19 /* ViewController.swift */,
+				57766BED2760ED19004341D7 /* PhotoLibraryViewController.swift */,
+				571C79F7275DCB93007BED19 /* DocViewController.swift */,
+				571C79F5275D3D87007BED19 /* WelcomViewController.swift */,
+				571C79DA275D1863007BED19 /* MetalCamera */,
+				571C79D7275D1863007BED19 /* model */,
+				571C79D6275D1862007BED19 /* PhotoCaptureDelegate.swift */,
+				571C79F3275D1D0E007BED19 /* cameraViewController.swift */,
+				571C79D5275D1862007BED19 /* SegmentationResultMLMultiArray.swift */,
+				57766BEF2760F99F004341D7 /* seagueViewController.swift */,
+				571C79D9275D1863007BED19 /* VideoCapture.swift */,
 				571C79C5275D0F06007BED19 /* Main.storyboard */,
 				571C79C8275D0F07007BED19 /* Assets.xcassets */,
 				571C79CA275D0F07007BED19 /* LaunchScreen.storyboard */,
 				571C79CD275D0F07007BED19 /* Info.plist */,
 			);
 			path = FibonaccisLens;
+			sourceTree = "<group>";
+		};
+		571C79D7275D1863007BED19 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				571C79D8275D1863007BED19 /* FaceParsing.mlmodel */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		571C79DA275D1863007BED19 /* MetalCamera */ = {
+			isa = PBXGroup;
+			children = (
+				571C79DB275D1863007BED19 /* CameraTextureGenerater.swift */,
+				571C79DC275D1863007BED19 /* MetalRenderingDevice.swift */,
+				571C79DD275D1863007BED19 /* Utils */,
+				571C79DF275D1863007BED19 /* Shaders */,
+				571C79E1275D1863007BED19 /* MetalVideoView.swift */,
+				571C79E2275D1863007BED19 /* Texture.swift */,
+				571C79E3275D1863007BED19 /* CroppedTextureGenerater.swift */,
+			);
+			path = MetalCamera;
+			sourceTree = "<group>";
+		};
+		571C79DD275D1863007BED19 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				571C79DE275D1863007BED19 /* Maths.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		571C79DF275D1863007BED19 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				571C79E0275D1863007BED19 /* Shaders.metal */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+		AA88F89BCAF258A052519E27 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C8131AEE2847CD415803A15 /* Pods-FibonaccisLens.debug.xcconfig */,
+				82568190F2CF1B3E2839C320 /* Pods-FibonaccisLens.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BCF4A3AAF93EC4CB7E33554B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2717A73C724894DDE9E3F5F6 /* Pods_FibonaccisLens.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 571C79D0275D0F07007BED19 /* Build configuration list for PBXNativeTarget "FibonaccisLens" */;
 			buildPhases = (
+				0B8AE7CAC1979C041245902C /* [CP] Check Pods Manifest.lock */,
 				571C79B8275D0F06007BED19 /* Sources */,
 				571C79B9275D0F06007BED19 /* Frameworks */,
 				571C79BA275D0F06007BED19 /* Resources */,
+				A6008C9E8B273DB04BFFB480 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +236,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B8AE7CAC1979C041245902C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FibonaccisLens-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6008C9E8B273DB04BFFB480 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FibonaccisLens/Pods-FibonaccisLens-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FibonaccisLens/Pods-FibonaccisLens-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FibonaccisLens/Pods-FibonaccisLens-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		571C79B8275D0F06007BED19 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				571C79C4275D0F06007BED19 /* ViewController.swift in Sources */,
+				57766BEE2760ED19004341D7 /* PhotoLibraryViewController.swift in Sources */,
+				571C79E9275D1863007BED19 /* MetalRenderingDevice.swift in Sources */,
 				571C79C0275D0F06007BED19 /* AppDelegate.swift in Sources */,
+				571C79E7275D1863007BED19 /* VideoCapture.swift in Sources */,
+				571C79EA275D1863007BED19 /* Maths.swift in Sources */,
+				571C79EC275D1863007BED19 /* MetalVideoView.swift in Sources */,
+				57766BF02760F99F004341D7 /* seagueViewController.swift in Sources */,
+				571C79EE275D1863007BED19 /* CroppedTextureGenerater.swift in Sources */,
 				571C79C2275D0F06007BED19 /* SceneDelegate.swift in Sources */,
+				571C79F4275D1D0E007BED19 /* cameraViewController.swift in Sources */,
+				571C79E6275D1863007BED19 /* FaceParsing.mlmodel in Sources */,
+				571C79E5275D1863007BED19 /* PhotoCaptureDelegate.swift in Sources */,
+				571C79F6275D3D87007BED19 /* WelcomViewController.swift in Sources */,
+				571C79EB275D1863007BED19 /* Shaders.metal in Sources */,
+				571C79E8275D1863007BED19 /* CameraTextureGenerater.swift in Sources */,
+				571C79F8275DCB93007BED19 /* DocViewController.swift in Sources */,
+				571C79ED275D1863007BED19 /* Texture.swift in Sources */,
+				571C79E4275D1863007BED19 /* SegmentationResultMLMultiArray.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +377,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -272,7 +432,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -284,57 +444,71 @@
 		};
 		571C79D1275D0F07007BED19 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C8131AEE2847CD415803A15 /* Pods-FibonaccisLens.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8D99MGNPN4;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = GZ44K8J8CT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FibonaccisLens/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Fibonacci's Lens";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please Allow Camera Permission for Photography";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "You Can Allow Location Permission to Record Where You Take Photos";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Please Allow Photo Library to Save Photos";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.xmu.FibonaccisLens;
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Yven.FibonaccisLens;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		571C79D2275D0F07007BED19 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82568190F2CF1B3E2839C320 /* Pods-FibonaccisLens.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8D99MGNPN4;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = GZ44K8J8CT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FibonaccisLens/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Fibonacci's Lens";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please Allow Camera Permission for Photography";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "You Can Allow Location Permission to Record Where You Take Photos";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Please Allow Photo Library to Save Photos";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.xmu.FibonaccisLens;
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Yven.FibonaccisLens;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

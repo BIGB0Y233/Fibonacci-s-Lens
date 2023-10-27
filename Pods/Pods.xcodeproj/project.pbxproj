@@ -1,0 +1,1267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		008A4732DEE7B5968914175096166ADD /* CardSlider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0C0DFC5FDE7E4B9ED799A0FA9660AF /* CardSlider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01ABA52EA129C619B113E9D6908C3C77 /* SPPermissionsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C5080C2722D3B664B4F04C66770F15 /* SPPermissionsList.swift */; };
+		098544DCF2BA4E67E6F41D323924A515 /* SPPermissionsPermissionIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F65B0CF00EC057AEEEC8E80BB9A1AB /* SPPermissionsPermissionIconView.swift */; };
+		0B3DFE61C8E3170D451DD58BDA4BA4AE /* CardSliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BC676A87AD0759348248D1747B9D10 /* CardSliderViewController.swift */; };
+		0D6FBAC4C0B452B66838716E182D4092 /* PresenterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25910FA26A17211E399B883392689680 /* PresenterService.swift */; };
+		1111CC2E48D0CB314E8E349E6F9853F0 /* SPPermissionsListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ED15998D4314BD2AC199EFA663B6E7 /* SPPermissionsListController.swift */; };
+		13ABFCFE465B884735E48D12273B49C4 /* SPLocationWhenInUsePermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = F035D2C9ED3EEB9EE10D7B1B1BB8ECF0 /* SPLocationWhenInUsePermission.swift */; };
+		14950C10AEB6D959DF8EB99387CAF0E0 /* OpenService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55DB0A44C1D70F22BEDB7C763E06D83 /* OpenService.swift */; };
+		17142845D9DF88C1C06FA09422F3B2DC /* SPPermissionsDeniedAlertTexts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DC9F5E0862979BFFEED4DA71926CEB /* SPPermissionsDeniedAlertTexts.swift */; };
+		1B13D9D1F841F41CACD0B0813C7817F4 /* SPPermissionsDialogGradeBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6747CBBF57C0377F22DC6951528EFE4E /* SPPermissionsDialogGradeBlurView.swift */; };
+		2093B088DF24A612473D8D010B002856 /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49991C62269DA98695FC3C36DF7C90B4 /* Text.swift */; };
+		22AD3682CE86C75B02E082FABF02B32C /* SPPermissionsControllerInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452F2D7CB1331F560EB2FA7FB1A524E9 /* SPPermissionsControllerInterface.swift */; };
+		232FDA712C42673D5895E9D4AF840B1C /* SPPermissionsActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4547E3224B1F7E4DC87CDB9675A3ABBE /* SPPermissionsActionButton.swift */; };
+		27B41088697DD3838A04D0A1090A1EED /* Pods-FibonaccisLens-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D929CCA5219EE216EDC17F6FB4960308 /* Pods-FibonaccisLens-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F8148340F6CEBB98D3A505F21C07419 /* UIFontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEAE6A67A720815D3487A22236ABFE5 /* UIFontExtension.swift */; };
+		45DB4849983CA9E4ECCC2FBB42ED2FFC /* CardSlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F33D12DF24B6E0CF9A6E036F3C484075 /* CardSlider-dummy.m */; };
+		4FFAE0241A52F9249633ED272ECA6678 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		5C21DAE0007836E5A2854822448A83FF /* SPLocationWhenInUsePrecisePermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D0918578448CC49377CA9763E75164 /* SPLocationWhenInUsePrecisePermission.swift */; };
+		5ECCFE6B80F256573845CE3A021B4BE5 /* SPPermissions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D4410CCCCA42ACEB5CC32DC20C1C32C /* SPPermissions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61E7C7D527FD54897188B39F631FD307 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118D7A054F4EDE293D521CBDA208403D /* UIColorExtension.swift */; };
+		62522FA0920CEF4B40E423905832346F /* SPPermissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77339B0AE9F9A17C0A2733F630B4AD08 /* SPPermissions.swift */; };
+		64986907BE0623CEB9CD8B24E0F293D4 /* SPPermissionsDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BD40E8F52B0F5585BCFA1A257ED2F3 /* SPPermissionsDelegate.swift */; };
+		666655EA7C4F1385C1FCD679BA41ABAC /* CardsLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310DD8813BC2EB4D107A32D9E603BF00 /* CardsLayout.swift */; };
+		6E4A801BECA0380BE0C34405F35F02AE /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4A27F45E1B846EDCA6A490CFAF408D /* ArrayExtension.swift */; };
+		798B5A3A63E1681233F0C177C4E8403B /* SPPermissionsListFooterCommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAE0782C1CEA9AD1E5C40EECA74F5EE /* SPPermissionsListFooterCommentView.swift */; };
+		7CDBB1E582761D9672DB793091521050 /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308620A220D2A0F38B128EF9DFAD9366 /* UILabelExtension.swift */; };
+		8F1B2C1F1FE6B8535FBCBFD916856DB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BEFA98EB9A92B858D9AC98026323E68 /* Main.storyboard */; };
+		8F73C77F3B50E1662C8C87BD79D13521 /* SPPermissionsDialogCloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1127B20093BD1E1F2B386D2D359B4333 /* SPPermissionsDialogCloseButton.swift */; };
+		942110EE8A6BDB3E5B52F15B9DD6F725 /* SPPermissionsNativeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04709180EF6601888B19D44435F2E19 /* SPPermissionsNativeController.swift */; };
+		9927CC99DC40D98B47AD466397CA4069 /* SPPhotoLibraryPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1F91B69DF63C0CE6F34FA0A238AE5C /* SPPhotoLibraryPermission.swift */; };
+		A729929B22B36BA6133AEC4015A0F804 /* SPPermissionsDialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB4726CB827D0C18977ADABC9A0F916 /* SPPermissionsDialogView.swift */; };
+		A7AE8D18C0077F47969E64ACE54CC3AD /* DelayService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0479A556C5983EDC199DE0B98575EA /* DelayService.swift */; };
+		A8FF0AB761DF0519B98445D8E236448A /* SPPermissionsDismissCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB314D3D94C7AFD4DAF8227FD5C29A67 /* SPPermissionsDismissCondition.swift */; };
+		A953277903C34F61C2E60F9CC346F297 /* SPCameraPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621FCAECE8A2AC078D1A07428F329C3E /* SPCameraPermission.swift */; };
+		B09617D0F7AE5C4FE89B946CCA57B76A /* SPPermissions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA10FDBCBD17CFC88D43E94B0A3E699 /* SPPermissions-dummy.m */; };
+		B3D9ECFC2E47B36AE0C2272F46580B94 /* Pods-FibonaccisLens-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70BEAA10A03A1A89FD093598029D9879 /* Pods-FibonaccisLens-dummy.m */; };
+		B799D64462C21B85F4E0D9DFF6C91CEE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BB85FFE4B3BF5A98649B72FD69BB3F /* Extensions.swift */; };
+		B86A56A3A3BD83B53B1EE06ACA1B08FF /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0368603A3D3372EEC19C8542DD609795 /* RatingView.swift */; };
+		B88C4DFB66656B920E7504C5865E8016 /* Depricated.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF21AA44DD7D63050B985AAB3CAA482A /* Depricated.swift */; };
+		B92BAB2914057ADCF52453D4C9052F4E /* SPPermissionsDialogTableFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD6A39FB049CA371426F74B6A5B3823 /* SPPermissionsDialogTableFooterView.swift */; };
+		C039D022778D43A0CCD3F632E0C97212 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		C5E32C59DFDFE8B8E60AE33BABA9E423 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		C7FD5F86947F6CBDE717A0D3E49B5B65 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75F59D77A7D5D8C079DB7CB2AF7386E /* Images.swift */; };
+		C952312E3EFC0A7283006F5C7D73FFD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		CBC380EDD8AD87BB83668024C5407C6E /* SPPermissionsDialogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF9511834538ED1FE228799E5523F66 /* SPPermissionsDialogController.swift */; };
+		D1085E869D665C41445D6A3701EE4793 /* SPPermissionsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBB84ACF4B6C379FDF3E5B215C05F41 /* SPPermissionsDataSource.swift */; };
+		D956FB9F7DFE25EC1C7A07A81BD49353 /* CardTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A440C92200B7254DE0DB395D0CCC16EE /* CardTitleView.swift */; };
+		DE58C1B8BEDE36A8D000D1008F5F8F67 /* CardSliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0B487BF83E5A30554E03484DBFF2E2 /* CardSliderCell.swift */; };
+		E83951BCF37577F37166DBCD755CB629 /* CardSlider.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8BE14ED7EE382CA6577D4EC34FF7388A /* CardSlider.bundle */; };
+		EA325685954EFA998D898AB00C2D5797 /* SPPermissionWhenInUseLocationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A6C3ECC910026AD67F11717A61C5CB /* SPPermissionWhenInUseLocationHandler.swift */; };
+		ED350E20F9C966D61866CA1F0A2FA49B /* SPPermissions.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0211367793A2FCD536B938775CD8B81E /* SPPermissions.bundle */; };
+		EE418D426BA1714ABC120991F181438F /* SPPermissionsListHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95092ED004093B21F7CCE4EA1A18C123 /* SPPermissionsListHeaderView.swift */; };
+		F21837DBDF70A5C94E09A679E19FE229 /* SPPermissionsDrawIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6E394D59BC9E823F21C7D37053023F /* SPPermissionsDrawIconView.swift */; };
+		F66F5ED06A66CD8CCA9FD40D5B7AFA64 /* SPPermissionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A246D1B30D7CA0096AC0C95191A8A31 /* SPPermissionsTableViewCell.swift */; };
+		F6CBDD2DB76F7A524A5CE069DDB547C9 /* HapticService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F617946127E8142331060534C2BA336 /* HapticService.swift */; };
+		FA8848CD65B29B192C1CD8B46E9942C5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96A642D744B7ED3A882A7846FA4A404B /* Localizable.strings */; };
+		FB2FE76574B9377737118552683B3086 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FFE9E2DC6F86999BA82B2291335EB65 /* Assets.xcassets */; };
+		FDB41AB2AAD711AE430B0E208DA6B571 /* DrawService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD5029F6C02B6E131315EC449D2CB90 /* DrawService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01C6599E404868820F6EF97919E161F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B483472F6440590861262522FEBEA49F;
+			remoteInfo = "CardSlider-CardSlider";
+		};
+		153EB85E69D9431CE3161EA85703939F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46887A2B3EC5EA71E0B560973C79F7A6;
+			remoteInfo = SPPermissions;
+		};
+		79B057007B97A7C6D107EA18CA674F04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D11B0D1A6986453F8B1B1BACDA442BBA;
+			remoteInfo = CardSlider;
+		};
+		9E413EDC28E2156A0D25FFD4D9683E57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C492DB2C516D792C3187904A95E388C8;
+			remoteInfo = "SPPermissions-SPPermissions";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0211367793A2FCD536B938775CD8B81E /* SPPermissions.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPPermissions.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		0368603A3D3372EEC19C8542DD609795 /* RatingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RatingView.swift; path = CardSlider/CardSlider/Private/RatingView.swift; sourceTree = "<group>"; };
+		07142E9E3865306CA548FAB5AE6C895A /* CardSlider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CardSlider.modulemap; sourceTree = "<group>"; };
+		0756ED3A7462E6A5EDF01D8D33B9F4FC /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0AD6A39FB049CA371426F74B6A5B3823 /* SPPermissionsDialogTableFooterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPermissionsDialogTableFooterView.swift; path = Sources/SPPermissions/Interface/Dialog/SPPermissionsDialogTableFooterView.swift; sourceTree = "<group>"; };
+		0E0B487BF83E5A30554E03484DBFF2E2 /* CardSliderCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardSliderCell.swift; path = CardSlider/CardSlider/Public/CardSliderCell.swift; sourceTree = "<group>"; };
+		1127B20093BD1E1F2B386D2D359B4333 /* SPPermissionsDialogCloseButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPermissionsDialogCloseButton.swift; path = Sources/SPPermissions/Interface/Dialog/SPPermissionsDialogCloseButton.swift; sourceTree = "<group>"; };
+		118D7A054F4EDE293D521CBDA208403D /* UIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = Sources/SPPermissions/Extensions/UIColorExtension.swift; sourceTree = "<group>"; };
+		13C5080C2722D3B664B4F04C66770F15 /* SPPermissionsList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPermissionsList.swift; path = Sources/SPPermissions/Interface/List/SPPermissionsList.swift; sourceTree = "<group>"; };
+		13ED15998D4314BD2AC199EFA663B6E7 /* SPPermissionsListController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPermissionsListController.swift; path = Sources/SPPermissions/Interface/List/SPPermissionsListController.swift; sourceTree = "<group>"; };
+		14685FD795D12A5649BB9A2BFB8B3DEB /* SPPermissions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SPPermissions.debug.xcconfig; sourceTree = "<group>"; };
+		14C3EC797B6F6D6FA071A28DE2CFEEB4 /* SPPermissions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPPermissions-prefix.pch"; sourceTree = "<group>"; };
+		1D4410CCCCA42ACEB5CC32DC20C1C32C /* SPPermissions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPPermissions-umbrella.h"; sourceTree = "<group>"; };
+		23B692F98FF7E5C90AB9F9CEB5FE6A20 /* Pods-FibonaccisLens-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FibonaccisLens-acknowledgements.plist"; sourceTree = "<group>"; };
+		25910FA26A17211E399B883392689680 /* PresenterService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresenterService.swift; path = Sources/SPPermissions/Services/PresenterService.swift; sourceTree = "<group>"; };
+		2EBB84ACF4B6C379FDF3E5B215C05F41 /* SPPermissionsDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPermissionsDataSource.swift; path = Sources/SPPermissions/Protocols/SPPermissionsDataSource.swift; sourceTree = "<group>"; };
+		308620A220D2A0F38B128EF9DFAD9366 /* UILabelExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UILabelExtension.swift; path = Sources/SPPermissions/Extensions/UILabelExtension.swift; sourceTree = "<group>"; };
+		310DD8813BC2EB4D107A32D9E603BF00 /* CardsLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardsLayout.swift; path = CardSlider/CardSlider/Private/CardsLayout.swift; sourceTree = "<group>"; };
+		39DC9F5E0862979BFFEED4DA71926CEB /* SPPermissionsDeniedAlertTexts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPermissionsDeniedAlertTexts.swift; path = Sources/SPPermissions/Models/SPPermissionsDeniedAlertTexts.swift; sourceTree = "<group>"; };
+		3CD5029F6C02B6E131315EC449D2CB90 /* DrawService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DrawService.swift; path = Sources/SPPermissions/Services/DrawService.swift; sourceTree = "<group>"; };
+		3CE7A108F3188FDBDEB711783B9792DE /* Pods_FibonaccisLens.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FibonaccisLens.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F617946127E8142331060534C2BA336 /* HapticService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HapticService.swift; path = Sources/SPPermissions/Services/HapticService.swift; sourceTree = "<group>"; };
+		3F8ECEF342B4A3F966D10FE0D66A2F24 /* SPPermissions-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SPPermissions-Info.plist"; sourceTree = "<group>"; };
+		4197F7956DCF3ABC979C97221F996E88 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		452F2D7CB1331F560EB2FA7FB1A524E9 /* SPPermissionsControllerInterface.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPermissionsControllerInterface.swift; path = Sources/SPPermissions/Protocols/SPPermissionsControllerInterface.swift; sourceTree = "<group>"; };
+		4547E3224B1F7E4DC87CDB9675A3ABBE /* SPPermissionsActionButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPermissionsActionButton.swift; path = Sources/SPPermissions/Interface/Shared/SPPermissionsActionButton.swift; sourceTree = "<group>"; };
+		48A6C3ECC910026AD67F11717A61C5CB /* SPPermissionWhenInUseLocationHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPermissionWhenInUseLocationHandler.swift; path = Sources/SPPermissionsLocationWhenInUse/SPPermissionWhenInUseLocationHandler.swift; sourceTree = "<group>"; };
+		49991C62269DA98695FC3C36DF7C90B4 /* Text.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Text.swift; path = Sources/SPPermissions/Data/Text.swift; sourceTree = "<group>"; };
+		4BEFA98EB9A92B858D9AC98026323E68 /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Main.storyboard; path = CardSlider/CardSlider/Private/Main.storyboard; sourceTree = "<group>"; };
+		52BB85FFE4B3BF5A98649B72FD69BB3F /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = CardSlider/CardSlider/Private/Extensions.swift; sourceTree = "<group>"; };
+		58B25F70B6E82B15F4AF77381085B52A /* SPPermissions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SPPermissions.release.xcconfig; sourceTree = "<group>"; };
+		5BAE0782C1CEA9AD1E5C40EECA74F5EE /* SPPermissionsListFooterCommentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPermissionsListFooterCommentView.swift; path = Sources/SPPermissions/Interface/List/SPPermissionsListFooterCommentView.swift; sourceTree = "<group>"; };
+		5FD8E4EBA830B51FA0871FEAA75E4DF8 /* SPPermissions */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SPPermissions; path = SPPermissions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		621FCAECE8A2AC078D1A07428F329C3E /* SPCameraPermission.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPCameraPermission.swift; path = Sources/SPPermissionsCamera/SPCameraPermission.swift; sourceTree = "<group>"; };
+		66F470F5B4357AEFCC08084033BC53C4 /* CardSlider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CardSlider-prefix.pch"; sourceTree = "<group>"; };
+		6747CBBF57C0377F22DC6951528EFE4E /* SPPermissionsDialogGradeBlurView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPermissionsDialogGradeBlurView.swift; path = Sources/SPPermissions/Interface/Dialog/SPPermissionsDialogGradeBlurView.swift; sourceTree = "<group>"; };
+		6886CE955BB57A2D6610CF73B0C4FE52 /* ResourceBundle-CardSlider-CardSlider-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CardSlider-CardSlider-Info.plist"; sourceTree = "<group>"; };
+		6A246D1B30D7CA0096AC0C95191A8A31 /* SPPermissionsTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPermissionsTableViewCell.swift; path = Sources/SPPermissions/Interface/Shared/SPPermissionsTableViewCell.swift; sourceTree = "<group>"; };
+		6AA10FDBCBD17CFC88D43E94B0A3E699 /* SPPermissions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SPPermissions-dummy.m"; sourceTree = "<group>"; };
+		6E151214E5F2281F870BDF5E905FD03F /* CardSlider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CardSlider.debug.xcconfig; sourceTree = "<group>"; };
+		6FFE9E2DC6F86999BA82B2291335EB65 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Sources/SPPermissions/Resources/Assets.xcassets; sourceTree = "<group>"; };
+		709198806C04F3629035BB0C359CDA37 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		70BEAA10A03A1A89FD093598029D9879 /* Pods-FibonaccisLens-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FibonaccisLens-dummy.m"; sourceTree = "<group>"; };
+		77339B0AE9F9A17C0A2733F630B4AD08 /* SPPermissions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPermissions.swift; path = Sources/SPPermissions/SPPermissions.swift; sourceTree = "<group>"; };
+		7E62248F0FD9B27B668018CDFE6626B3 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7F0479A556C5983EDC199DE0B98575EA /* DelayService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DelayService.swift; path = Sources/SPPermissions/Services/DelayService.swift; sourceTree = "<group>"; };
+		84694B56F3FAF2BF9D8C526AF24AE54D /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		847386D0274ACCFB0B14BBE98AC4D061 /* Pods-FibonaccisLens-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FibonaccisLens-Info.plist"; sourceTree = "<group>"; };
+		84E92EB6021DF8AD8BCBEE9091078B09 /* CardSlider-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CardSlider-Info.plist"; sourceTree = "<group>"; };
+		86668F3EE3E869951AE8D31E956C9C50 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8BE14ED7EE382CA6577D4EC34FF7388A /* CardSlider.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardSlider.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CB4726CB827D0C18977ADABC9A0F916 /* SPPermissionsDialogView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPermissionsDialogView.swift; path = Sources/SPPermissions/Interface/Dialog/SPPermissionsDialogView.swift; sourceTree = "<group>"; };
+		8D4A27F45E1B846EDCA6A490CFAF408D /* ArrayExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArrayExtension.swift; path = Sources/SPPermissions/Extensions/ArrayExtension.swift; sourceTree = "<group>"; };
+		8FDDCBD4D7CC0849A3D6716F25CB80BD /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = zh_Hans.lproj/Localizable.strings; sourceTree = "<group>"; };
+		95092ED004093B21F7CCE4EA1A18C123 /* SPPermissionsListHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPermissionsListHeaderView.swift; path = Sources/SPPermissions/Interface/List/SPPermissionsListHeaderView.swift; sourceTree = "<group>"; };
+		97BC676A87AD0759348248D1747B9D10 /* CardSliderViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardSliderViewController.swift; path = CardSlider/CardSlider/Public/CardSliderViewController.swift; sourceTree = "<group>"; };
+		9A6A8A606D31E8C2EC5F9DF5AE84AA60 /* ResourceBundle-SPPermissions-SPPermissions-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SPPermissions-SPPermissions-Info.plist"; sourceTree = "<group>"; };
+		9C03E321983E31E0D7C75CC65FD7194E /* Pods-FibonaccisLens-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FibonaccisLens-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D0C0DFC5FDE7E4B9ED799A0FA9660AF /* CardSlider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CardSlider-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EC7794CF59222910A2FB348463713AB /* CardSlider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CardSlider.release.xcconfig; sourceTree = "<group>"; };
+		9EEAE6A67A720815D3487A22236ABFE5 /* UIFontExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIFontExtension.swift; path = Sources/SPPermissions/Extensions/UIFontExtension.swift; sourceTree = "<group>"; };
+		A440C92200B7254DE0DB395D0CCC16EE /* CardTitleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardTitleView.swift; path = CardSlider/CardSlider/Public/CardTitleView.swift; sourceTree = "<group>"; };
+		A8BD40E8F52B0F5585BCFA1A257ED2F3 /* SPPermissionsDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPermissionsDelegate.swift; path = Sources/SPPermissions/Protocols/SPPermissionsDelegate.swift; sourceTree = "<group>"; };
+		C4110FECCE25FD44409C73DBFBDE93E2 /* Pods-FibonaccisLens.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FibonaccisLens.modulemap"; sourceTree = "<group>"; };
+		C5560CDB4A059BFE53FF3D0EB1F44F95 /* Pods-FibonaccisLens.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FibonaccisLens.debug.xcconfig"; sourceTree = "<group>"; };
+		C65E10B4BB35DEADA2D07ED3E5D02EB6 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D04709180EF6601888B19D44435F2E19 /* SPPermissionsNativeController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPermissionsNativeController.swift; path = Sources/SPPermissions/Interface/Native/SPPermissionsNativeController.swift; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D62C0D7461C40F0028979BC6CF7807FE /* Pods-FibonaccisLens-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FibonaccisLens-frameworks.sh"; sourceTree = "<group>"; };
+		D929CCA5219EE216EDC17F6FB4960308 /* Pods-FibonaccisLens-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FibonaccisLens-umbrella.h"; sourceTree = "<group>"; };
+		DA1F91B69DF63C0CE6F34FA0A238AE5C /* SPPhotoLibraryPermission.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPhotoLibraryPermission.swift; path = Sources/SPPermissionsPhotoLibrary/SPPhotoLibraryPermission.swift; sourceTree = "<group>"; };
+		E55DB0A44C1D70F22BEDB7C763E06D83 /* OpenService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpenService.swift; path = Sources/SPPermissions/Services/OpenService.swift; sourceTree = "<group>"; };
+		E673B2D5B1291E8D64A197F599677640 /* SPPermissions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SPPermissions.modulemap; sourceTree = "<group>"; };
+		E6D0918578448CC49377CA9763E75164 /* SPLocationWhenInUsePrecisePermission.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPLocationWhenInUsePrecisePermission.swift; path = Sources/SPPermissionsLocationWhenInUse/SPLocationWhenInUsePrecisePermission.swift; sourceTree = "<group>"; };
+		E9E025041173C6BE6CB331CE1648C42C /* Pods-FibonaccisLens.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FibonaccisLens.release.xcconfig"; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EB314D3D94C7AFD4DAF8227FD5C29A67 /* SPPermissionsDismissCondition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPermissionsDismissCondition.swift; path = Sources/SPPermissions/Models/SPPermissionsDismissCondition.swift; sourceTree = "<group>"; };
+		EF21AA44DD7D63050B985AAB3CAA482A /* Depricated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Depricated.swift; path = Sources/SPPermissions/Depricated.swift; sourceTree = "<group>"; };
+		EF81FE7FCA7DDB5CBE9366C6E2178F7E /* CardSlider */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CardSlider; path = CardSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F035D2C9ED3EEB9EE10D7B1B1BB8ECF0 /* SPLocationWhenInUsePermission.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPLocationWhenInUsePermission.swift; path = Sources/SPPermissionsLocationWhenInUse/SPLocationWhenInUsePermission.swift; sourceTree = "<group>"; };
+		F0A627A7D84E13D0DA874BD010E0AEEB /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F33D12DF24B6E0CF9A6E036F3C484075 /* CardSlider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CardSlider-dummy.m"; sourceTree = "<group>"; };
+		F3F65B0CF00EC057AEEEC8E80BB9A1AB /* SPPermissionsPermissionIconView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPermissionsPermissionIconView.swift; path = Sources/SPPermissions/Interface/Shared/SPPermissionsPermissionIconView.swift; sourceTree = "<group>"; };
+		F507583090E15642F37547DD323EDA07 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = pt.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F75F59D77A7D5D8C079DB7CB2AF7386E /* Images.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Images.swift; path = Sources/SPPermissions/Data/Images.swift; sourceTree = "<group>"; };
+		FADCFA1D443028B3BA41E165DD3EF8AD /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB20096D8FB41C9EFCD44BD7399294A4 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FDF9511834538ED1FE228799E5523F66 /* SPPermissionsDialogController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPermissionsDialogController.swift; path = Sources/SPPermissions/Interface/Dialog/SPPermissionsDialogController.swift; sourceTree = "<group>"; };
+		FE6E394D59BC9E823F21C7D37053023F /* SPPermissionsDrawIconView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPermissionsDrawIconView.swift; path = Sources/SPPermissions/Interface/Shared/SPPermissionsDrawIconView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		772E15396AF0B2155FB176279E6150A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E3CF7E646CE2564C604C3BFF1512887 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92F53F1338794F37EE17914079AD9939 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FFAE0241A52F9249633ED272ECA6678 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7DA0B95A5C6019B9AF39B39571D58E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C952312E3EFC0A7283006F5C7D73FFD7 /* Foundation.framework in Frameworks */,
+				C5E32C59DFDFE8B8E60AE33BABA9E423 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3F8475F420E63DDE1AF809D6BC3E5A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C039D022778D43A0CCD3F632E0C97212 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C9354ED187DF2B4C1DDFB5BA7FA38B3 /* PhotoLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				DA1F91B69DF63C0CE6F34FA0A238AE5C /* SPPhotoLibraryPermission.swift */,
+			);
+			name = PhotoLibrary;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1E55A8722F24F8B7FE58A9BDE6990DD3 /* LocationWhenInUse */ = {
+			isa = PBXGroup;
+			children = (
+				F035D2C9ED3EEB9EE10D7B1B1BB8ECF0 /* SPLocationWhenInUsePermission.swift */,
+				E6D0918578448CC49377CA9763E75164 /* SPLocationWhenInUsePrecisePermission.swift */,
+				48A6C3ECC910026AD67F11717A61C5CB /* SPPermissionWhenInUseLocationHandler.swift */,
+			);
+			name = LocationWhenInUse;
+			sourceTree = "<group>";
+		};
+		26C8E590D0146F5F9D9C88E9AA175BF9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4BEFA98EB9A92B858D9AC98026323E68 /* Main.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		313191E33529CAD7CDBDD43C74866D35 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				621FCAECE8A2AC078D1A07428F329C3E /* SPCameraPermission.swift */,
+			);
+			name = Camera;
+			sourceTree = "<group>";
+		};
+		3D5C546D1CCB2EE43FB949D1E1241E4C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8D4A27F45E1B846EDCA6A490CFAF408D /* ArrayExtension.swift */,
+				7F0479A556C5983EDC199DE0B98575EA /* DelayService.swift */,
+				EF21AA44DD7D63050B985AAB3CAA482A /* Depricated.swift */,
+				3CD5029F6C02B6E131315EC449D2CB90 /* DrawService.swift */,
+				3F617946127E8142331060534C2BA336 /* HapticService.swift */,
+				F75F59D77A7D5D8C079DB7CB2AF7386E /* Images.swift */,
+				E55DB0A44C1D70F22BEDB7C763E06D83 /* OpenService.swift */,
+				25910FA26A17211E399B883392689680 /* PresenterService.swift */,
+				77339B0AE9F9A17C0A2733F630B4AD08 /* SPPermissions.swift */,
+				4547E3224B1F7E4DC87CDB9675A3ABBE /* SPPermissionsActionButton.swift */,
+				452F2D7CB1331F560EB2FA7FB1A524E9 /* SPPermissionsControllerInterface.swift */,
+				2EBB84ACF4B6C379FDF3E5B215C05F41 /* SPPermissionsDataSource.swift */,
+				A8BD40E8F52B0F5585BCFA1A257ED2F3 /* SPPermissionsDelegate.swift */,
+				39DC9F5E0862979BFFEED4DA71926CEB /* SPPermissionsDeniedAlertTexts.swift */,
+				1127B20093BD1E1F2B386D2D359B4333 /* SPPermissionsDialogCloseButton.swift */,
+				FDF9511834538ED1FE228799E5523F66 /* SPPermissionsDialogController.swift */,
+				6747CBBF57C0377F22DC6951528EFE4E /* SPPermissionsDialogGradeBlurView.swift */,
+				0AD6A39FB049CA371426F74B6A5B3823 /* SPPermissionsDialogTableFooterView.swift */,
+				8CB4726CB827D0C18977ADABC9A0F916 /* SPPermissionsDialogView.swift */,
+				EB314D3D94C7AFD4DAF8227FD5C29A67 /* SPPermissionsDismissCondition.swift */,
+				FE6E394D59BC9E823F21C7D37053023F /* SPPermissionsDrawIconView.swift */,
+				13C5080C2722D3B664B4F04C66770F15 /* SPPermissionsList.swift */,
+				13ED15998D4314BD2AC199EFA663B6E7 /* SPPermissionsListController.swift */,
+				5BAE0782C1CEA9AD1E5C40EECA74F5EE /* SPPermissionsListFooterCommentView.swift */,
+				95092ED004093B21F7CCE4EA1A18C123 /* SPPermissionsListHeaderView.swift */,
+				D04709180EF6601888B19D44435F2E19 /* SPPermissionsNativeController.swift */,
+				F3F65B0CF00EC057AEEEC8E80BB9A1AB /* SPPermissionsPermissionIconView.swift */,
+				6A246D1B30D7CA0096AC0C95191A8A31 /* SPPermissionsTableViewCell.swift */,
+				49991C62269DA98695FC3C36DF7C90B4 /* Text.swift */,
+				118D7A054F4EDE293D521CBDA208403D /* UIColorExtension.swift */,
+				9EEAE6A67A720815D3487A22236ABFE5 /* UIFontExtension.swift */,
+				308620A220D2A0F38B128EF9DFAD9366 /* UILabelExtension.swift */,
+				C4FA42ED4F03AF835F901B21E76BAAB3 /* Resources */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		87A77FDEB444D253A39C02105F5D3B10 /* Pods-FibonaccisLens */ = {
+			isa = PBXGroup;
+			children = (
+				C4110FECCE25FD44409C73DBFBDE93E2 /* Pods-FibonaccisLens.modulemap */,
+				9C03E321983E31E0D7C75CC65FD7194E /* Pods-FibonaccisLens-acknowledgements.markdown */,
+				23B692F98FF7E5C90AB9F9CEB5FE6A20 /* Pods-FibonaccisLens-acknowledgements.plist */,
+				70BEAA10A03A1A89FD093598029D9879 /* Pods-FibonaccisLens-dummy.m */,
+				D62C0D7461C40F0028979BC6CF7807FE /* Pods-FibonaccisLens-frameworks.sh */,
+				847386D0274ACCFB0B14BBE98AC4D061 /* Pods-FibonaccisLens-Info.plist */,
+				D929CCA5219EE216EDC17F6FB4960308 /* Pods-FibonaccisLens-umbrella.h */,
+				C5560CDB4A059BFE53FF3D0EB1F44F95 /* Pods-FibonaccisLens.debug.xcconfig */,
+				E9E025041173C6BE6CB331CE1648C42C /* Pods-FibonaccisLens.release.xcconfig */,
+			);
+			name = "Pods-FibonaccisLens";
+			path = "Target Support Files/Pods-FibonaccisLens";
+			sourceTree = "<group>";
+		};
+		B55CD936FDF41288C47D4676406A8EB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF81FE7FCA7DDB5CBE9366C6E2178F7E /* CardSlider */,
+				8BE14ED7EE382CA6577D4EC34FF7388A /* CardSlider.bundle */,
+				3CE7A108F3188FDBDEB711783B9792DE /* Pods_FibonaccisLens.framework */,
+				5FD8E4EBA830B51FA0871FEAA75E4DF8 /* SPPermissions */,
+				0211367793A2FCD536B938775CD8B81E /* SPPermissions.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4FA42ED4F03AF835F901B21E76BAAB3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6FFE9E2DC6F86999BA82B2291335EB65 /* Assets.xcassets */,
+				96A642D744B7ED3A882A7846FA4A404B /* Localizable.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C7DD42632E3B7C08DAD6167EB8789C66 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A6A8A606D31E8C2EC5F9DF5AE84AA60 /* ResourceBundle-SPPermissions-SPPermissions-Info.plist */,
+				E673B2D5B1291E8D64A197F599677640 /* SPPermissions.modulemap */,
+				6AA10FDBCBD17CFC88D43E94B0A3E699 /* SPPermissions-dummy.m */,
+				3F8ECEF342B4A3F966D10FE0D66A2F24 /* SPPermissions-Info.plist */,
+				14C3EC797B6F6D6FA071A28DE2CFEEB4 /* SPPermissions-prefix.pch */,
+				1D4410CCCCA42ACEB5CC32DC20C1C32C /* SPPermissions-umbrella.h */,
+				14685FD795D12A5649BB9A2BFB8B3DEB /* SPPermissions.debug.xcconfig */,
+				58B25F70B6E82B15F4AF77381085B52A /* SPPermissions.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SPPermissions";
+			sourceTree = "<group>";
+		};
+		C9988EC9C3803AA59B18795C65676270 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD91D2FFF4D79096ADC10309E5334ACE /* CardSlider */,
+				E9BF4368CD0BED500CEED88AB907E857 /* SPPermissions */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CD91D2FFF4D79096ADC10309E5334ACE /* CardSlider */ = {
+			isa = PBXGroup;
+			children = (
+				310DD8813BC2EB4D107A32D9E603BF00 /* CardsLayout.swift */,
+				0E0B487BF83E5A30554E03484DBFF2E2 /* CardSliderCell.swift */,
+				97BC676A87AD0759348248D1747B9D10 /* CardSliderViewController.swift */,
+				A440C92200B7254DE0DB395D0CCC16EE /* CardTitleView.swift */,
+				52BB85FFE4B3BF5A98649B72FD69BB3F /* Extensions.swift */,
+				0368603A3D3372EEC19C8542DD609795 /* RatingView.swift */,
+				26C8E590D0146F5F9D9C88E9AA175BF9 /* Resources */,
+				DA28B7C1DFF9DC7FB598A3296B206581 /* Support Files */,
+			);
+			path = CardSlider;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				C9988EC9C3803AA59B18795C65676270 /* Pods */,
+				B55CD936FDF41288C47D4676406A8EB1 /* Products */,
+				CFD629C1E6B9A3AA7841F2CBE922ADE7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CFD629C1E6B9A3AA7841F2CBE922ADE7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				87A77FDEB444D253A39C02105F5D3B10 /* Pods-FibonaccisLens */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DA28B7C1DFF9DC7FB598A3296B206581 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				07142E9E3865306CA548FAB5AE6C895A /* CardSlider.modulemap */,
+				F33D12DF24B6E0CF9A6E036F3C484075 /* CardSlider-dummy.m */,
+				84E92EB6021DF8AD8BCBEE9091078B09 /* CardSlider-Info.plist */,
+				66F470F5B4357AEFCC08084033BC53C4 /* CardSlider-prefix.pch */,
+				9D0C0DFC5FDE7E4B9ED799A0FA9660AF /* CardSlider-umbrella.h */,
+				6E151214E5F2281F870BDF5E905FD03F /* CardSlider.debug.xcconfig */,
+				9EC7794CF59222910A2FB348463713AB /* CardSlider.release.xcconfig */,
+				6886CE955BB57A2D6610CF73B0C4FE52 /* ResourceBundle-CardSlider-CardSlider-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CardSlider";
+			sourceTree = "<group>";
+		};
+		E9BF4368CD0BED500CEED88AB907E857 /* SPPermissions */ = {
+			isa = PBXGroup;
+			children = (
+				313191E33529CAD7CDBDD43C74866D35 /* Camera */,
+				3D5C546D1CCB2EE43FB949D1E1241E4C /* Core */,
+				1E55A8722F24F8B7FE58A9BDE6990DD3 /* LocationWhenInUse */,
+				0C9354ED187DF2B4C1DDFB5BA7FA38B3 /* PhotoLibrary */,
+				C7DD42632E3B7C08DAD6167EB8789C66 /* Support Files */,
+			);
+			path = SPPermissions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1201FAABA9A7400D245E282B4D74DEDD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ECCFE6B80F256573845CE3A021B4BE5 /* SPPermissions-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EEF8F90C9A1E8515663DED0D1F96836 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				008A4732DEE7B5968914175096166ADD /* CardSlider-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE12121C7C9BCE5D871C457CC39A0014 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27B41088697DD3838A04D0A1090A1EED /* Pods-FibonaccisLens-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		19ACA10A03F4835876756E2B5AE5D320 /* Pods-FibonaccisLens */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 490E8AC56B1C2748B921D3910C7446F5 /* Build configuration list for PBXNativeTarget "Pods-FibonaccisLens" */;
+			buildPhases = (
+				CE12121C7C9BCE5D871C457CC39A0014 /* Headers */,
+				C890BC110F660A048FA629002DDEAEAC /* Sources */,
+				E3F8475F420E63DDE1AF809D6BC3E5A1 /* Frameworks */,
+				1FF20C3C4A22FD8980A3FB6ACC612B6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA042A879D53F4C01E63908BE230CFF4 /* PBXTargetDependency */,
+				CBEDCDF90E237E9F6476C7B9103E24D8 /* PBXTargetDependency */,
+			);
+			name = "Pods-FibonaccisLens";
+			productName = Pods_FibonaccisLens;
+			productReference = 3CE7A108F3188FDBDEB711783B9792DE /* Pods_FibonaccisLens.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		46887A2B3EC5EA71E0B560973C79F7A6 /* SPPermissions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5625DCB05D46A4175613470826AA273C /* Build configuration list for PBXNativeTarget "SPPermissions" */;
+			buildPhases = (
+				1201FAABA9A7400D245E282B4D74DEDD /* Headers */,
+				E222DB3BE1FFCAB33DCA995398006A33 /* Sources */,
+				D7DA0B95A5C6019B9AF39B39571D58E5 /* Frameworks */,
+				F148C9A92553E1FD59635EA6ABA8A57A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C8AC1C2A0C7BBE20C0E0590A31289B7 /* PBXTargetDependency */,
+			);
+			name = SPPermissions;
+			productName = SPPermissions;
+			productReference = 5FD8E4EBA830B51FA0871FEAA75E4DF8 /* SPPermissions */;
+			productType = "com.apple.product-type.framework";
+		};
+		B483472F6440590861262522FEBEA49F /* CardSlider-CardSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3320A5F0D491AB206F963E11694A4315 /* Build configuration list for PBXNativeTarget "CardSlider-CardSlider" */;
+			buildPhases = (
+				8457FC2E816CE696F5A1ED4D9CC4B7A0 /* Sources */,
+				772E15396AF0B2155FB176279E6150A8 /* Frameworks */,
+				9E7699D15DE247CB432147F9ACF92202 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CardSlider-CardSlider";
+			productName = CardSlider;
+			productReference = 8BE14ED7EE382CA6577D4EC34FF7388A /* CardSlider.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		C492DB2C516D792C3187904A95E388C8 /* SPPermissions-SPPermissions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E1DA40504A77A26A9C62FE824BF52DC /* Build configuration list for PBXNativeTarget "SPPermissions-SPPermissions" */;
+			buildPhases = (
+				714C5345BAF21A5B10282044E85C0369 /* Sources */,
+				8E3CF7E646CE2564C604C3BFF1512887 /* Frameworks */,
+				21344EB7CFB69BEE9D23017A06EE89D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SPPermissions-SPPermissions";
+			productName = SPPermissions;
+			productReference = 0211367793A2FCD536B938775CD8B81E /* SPPermissions.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		D11B0D1A6986453F8B1B1BACDA442BBA /* CardSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A16B0C526AE8E518B1087750B453D78 /* Build configuration list for PBXNativeTarget "CardSlider" */;
+			buildPhases = (
+				4EEF8F90C9A1E8515663DED0D1F96836 /* Headers */,
+				007D90BEC471FCAEA9FA901DD136E7F3 /* Sources */,
+				92F53F1338794F37EE17914079AD9939 /* Frameworks */,
+				4069882E22EB591F711725A738631B42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28D18967FC99859401D35FDA22AA6C0D /* PBXTargetDependency */,
+			);
+			name = CardSlider;
+			productName = CardSlider;
+			productReference = EF81FE7FCA7DDB5CBE9366C6E2178F7E /* CardSlider */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				ar,
+				de,
+				en,
+				es,
+				fr,
+				it,
+				pl,
+				pt,
+				ru,
+				uk,
+				"zh-Hant",
+				zh_Hans,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B55CD936FDF41288C47D4676406A8EB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D11B0D1A6986453F8B1B1BACDA442BBA /* CardSlider */,
+				B483472F6440590861262522FEBEA49F /* CardSlider-CardSlider */,
+				19ACA10A03F4835876756E2B5AE5D320 /* Pods-FibonaccisLens */,
+				46887A2B3EC5EA71E0B560973C79F7A6 /* SPPermissions */,
+				C492DB2C516D792C3187904A95E388C8 /* SPPermissions-SPPermissions */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FF20C3C4A22FD8980A3FB6ACC612B6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21344EB7CFB69BEE9D23017A06EE89D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB2FE76574B9377737118552683B3086 /* Assets.xcassets in Resources */,
+				FA8848CD65B29B192C1CD8B46E9942C5 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4069882E22EB591F711725A738631B42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E83951BCF37577F37166DBCD755CB629 /* CardSlider.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E7699D15DE247CB432147F9ACF92202 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F1B2C1F1FE6B8535FBCBFD916856DB0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F148C9A92553E1FD59635EA6ABA8A57A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED350E20F9C966D61866CA1F0A2FA49B /* SPPermissions.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		007D90BEC471FCAEA9FA901DD136E7F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				666655EA7C4F1385C1FCD679BA41ABAC /* CardsLayout.swift in Sources */,
+				45DB4849983CA9E4ECCC2FBB42ED2FFC /* CardSlider-dummy.m in Sources */,
+				DE58C1B8BEDE36A8D000D1008F5F8F67 /* CardSliderCell.swift in Sources */,
+				0B3DFE61C8E3170D451DD58BDA4BA4AE /* CardSliderViewController.swift in Sources */,
+				D956FB9F7DFE25EC1C7A07A81BD49353 /* CardTitleView.swift in Sources */,
+				B799D64462C21B85F4E0D9DFF6C91CEE /* Extensions.swift in Sources */,
+				B86A56A3A3BD83B53B1EE06ACA1B08FF /* RatingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		714C5345BAF21A5B10282044E85C0369 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8457FC2E816CE696F5A1ED4D9CC4B7A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C890BC110F660A048FA629002DDEAEAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D9ECFC2E47B36AE0C2272F46580B94 /* Pods-FibonaccisLens-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E222DB3BE1FFCAB33DCA995398006A33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E4A801BECA0380BE0C34405F35F02AE /* ArrayExtension.swift in Sources */,
+				A7AE8D18C0077F47969E64ACE54CC3AD /* DelayService.swift in Sources */,
+				B88C4DFB66656B920E7504C5865E8016 /* Depricated.swift in Sources */,
+				FDB41AB2AAD711AE430B0E208DA6B571 /* DrawService.swift in Sources */,
+				F6CBDD2DB76F7A524A5CE069DDB547C9 /* HapticService.swift in Sources */,
+				C7FD5F86947F6CBDE717A0D3E49B5B65 /* Images.swift in Sources */,
+				14950C10AEB6D959DF8EB99387CAF0E0 /* OpenService.swift in Sources */,
+				0D6FBAC4C0B452B66838716E182D4092 /* PresenterService.swift in Sources */,
+				A953277903C34F61C2E60F9CC346F297 /* SPCameraPermission.swift in Sources */,
+				13ABFCFE465B884735E48D12273B49C4 /* SPLocationWhenInUsePermission.swift in Sources */,
+				5C21DAE0007836E5A2854822448A83FF /* SPLocationWhenInUsePrecisePermission.swift in Sources */,
+				62522FA0920CEF4B40E423905832346F /* SPPermissions.swift in Sources */,
+				B09617D0F7AE5C4FE89B946CCA57B76A /* SPPermissions-dummy.m in Sources */,
+				232FDA712C42673D5895E9D4AF840B1C /* SPPermissionsActionButton.swift in Sources */,
+				22AD3682CE86C75B02E082FABF02B32C /* SPPermissionsControllerInterface.swift in Sources */,
+				D1085E869D665C41445D6A3701EE4793 /* SPPermissionsDataSource.swift in Sources */,
+				64986907BE0623CEB9CD8B24E0F293D4 /* SPPermissionsDelegate.swift in Sources */,
+				17142845D9DF88C1C06FA09422F3B2DC /* SPPermissionsDeniedAlertTexts.swift in Sources */,
+				8F73C77F3B50E1662C8C87BD79D13521 /* SPPermissionsDialogCloseButton.swift in Sources */,
+				CBC380EDD8AD87BB83668024C5407C6E /* SPPermissionsDialogController.swift in Sources */,
+				1B13D9D1F841F41CACD0B0813C7817F4 /* SPPermissionsDialogGradeBlurView.swift in Sources */,
+				B92BAB2914057ADCF52453D4C9052F4E /* SPPermissionsDialogTableFooterView.swift in Sources */,
+				A729929B22B36BA6133AEC4015A0F804 /* SPPermissionsDialogView.swift in Sources */,
+				A8FF0AB761DF0519B98445D8E236448A /* SPPermissionsDismissCondition.swift in Sources */,
+				F21837DBDF70A5C94E09A679E19FE229 /* SPPermissionsDrawIconView.swift in Sources */,
+				01ABA52EA129C619B113E9D6908C3C77 /* SPPermissionsList.swift in Sources */,
+				1111CC2E48D0CB314E8E349E6F9853F0 /* SPPermissionsListController.swift in Sources */,
+				798B5A3A63E1681233F0C177C4E8403B /* SPPermissionsListFooterCommentView.swift in Sources */,
+				EE418D426BA1714ABC120991F181438F /* SPPermissionsListHeaderView.swift in Sources */,
+				942110EE8A6BDB3E5B52F15B9DD6F725 /* SPPermissionsNativeController.swift in Sources */,
+				098544DCF2BA4E67E6F41D323924A515 /* SPPermissionsPermissionIconView.swift in Sources */,
+				F66F5ED06A66CD8CCA9FD40D5B7AFA64 /* SPPermissionsTableViewCell.swift in Sources */,
+				EA325685954EFA998D898AB00C2D5797 /* SPPermissionWhenInUseLocationHandler.swift in Sources */,
+				9927CC99DC40D98B47AD466397CA4069 /* SPPhotoLibraryPermission.swift in Sources */,
+				2093B088DF24A612473D8D010B002856 /* Text.swift in Sources */,
+				61E7C7D527FD54897188B39F631FD307 /* UIColorExtension.swift in Sources */,
+				2F8148340F6CEBB98D3A505F21C07419 /* UIFontExtension.swift in Sources */,
+				7CDBB1E582761D9672DB793091521050 /* UILabelExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C8AC1C2A0C7BBE20C0E0590A31289B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SPPermissions-SPPermissions";
+			target = C492DB2C516D792C3187904A95E388C8 /* SPPermissions-SPPermissions */;
+			targetProxy = 9E413EDC28E2156A0D25FFD4D9683E57 /* PBXContainerItemProxy */;
+		};
+		28D18967FC99859401D35FDA22AA6C0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CardSlider-CardSlider";
+			target = B483472F6440590861262522FEBEA49F /* CardSlider-CardSlider */;
+			targetProxy = 01C6599E404868820F6EF97919E161F9 /* PBXContainerItemProxy */;
+		};
+		CBEDCDF90E237E9F6476C7B9103E24D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SPPermissions;
+			target = 46887A2B3EC5EA71E0B560973C79F7A6 /* SPPermissions */;
+			targetProxy = 153EB85E69D9431CE3161EA85703939F /* PBXContainerItemProxy */;
+		};
+		FA042A879D53F4C01E63908BE230CFF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CardSlider;
+			target = D11B0D1A6986453F8B1B1BACDA442BBA /* CardSlider */;
+			targetProxy = 79B057007B97A7C6D107EA18CA674F04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		96A642D744B7ED3A882A7846FA4A404B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				709198806C04F3629035BB0C359CDA37 /* Localizable.strings */,
+				0756ED3A7462E6A5EDF01D8D33B9F4FC /* Localizable.strings */,
+				FB20096D8FB41C9EFCD44BD7399294A4 /* Localizable.strings */,
+				F0A627A7D84E13D0DA874BD010E0AEEB /* Localizable.strings */,
+				FADCFA1D443028B3BA41E165DD3EF8AD /* Localizable.strings */,
+				7E62248F0FD9B27B668018CDFE6626B3 /* Localizable.strings */,
+				C65E10B4BB35DEADA2D07ED3E5D02EB6 /* Localizable.strings */,
+				F507583090E15642F37547DD323EDA07 /* Localizable.strings */,
+				86668F3EE3E869951AE8D31E956C9C50 /* Localizable.strings */,
+				84694B56F3FAF2BF9D8C526AF24AE54D /* Localizable.strings */,
+				4197F7956DCF3ABC979C97221F996E88 /* Localizable.strings */,
+				8FDDCBD4D7CC0849A3D6716F25CB80BD /* Localizable.strings */,
+			);
+			name = Localizable.strings;
+			path = Sources/SPPermissions/Resources/Localization;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25033327065C16B7747986FFDC04FD89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58B25F70B6E82B15F4AF77381085B52A /* SPPermissions.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SPPermissions";
+				DEVELOPMENT_TEAM = GZ44K8J8CT;
+				IBSC_MODULE = SPPermissions;
+				INFOPLIST_FILE = "Target Support Files/SPPermissions/ResourceBundle-SPPermissions-SPPermissions-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = SPPermissions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		2634577ABCD2990A8731A0CEC1AA3FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14685FD795D12A5649BB9A2BFB8B3DEB /* SPPermissions.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SPPermissions/SPPermissions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SPPermissions/SPPermissions-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SPPermissions/SPPermissions.modulemap";
+				PRODUCT_MODULE_NAME = SPPermissions;
+				PRODUCT_NAME = SPPermissions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		29228D4B6623FA86F389AC0F7C758ED4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E151214E5F2281F870BDF5E905FD03F /* CardSlider.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CardSlider";
+				DEVELOPMENT_TEAM = GZ44K8J8CT;
+				IBSC_MODULE = CardSlider;
+				INFOPLIST_FILE = "Target Support Files/CardSlider/ResourceBundle-CardSlider-CardSlider-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = CardSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		8084B340AE32A005EF83EEEF6D4A973B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14685FD795D12A5649BB9A2BFB8B3DEB /* SPPermissions.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SPPermissions";
+				DEVELOPMENT_TEAM = GZ44K8J8CT;
+				IBSC_MODULE = SPPermissions;
+				INFOPLIST_FILE = "Target Support Files/SPPermissions/ResourceBundle-SPPermissions-SPPermissions-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = SPPermissions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		998DE0E74F706CC49F8303E5C37D65EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E151214E5F2281F870BDF5E905FD03F /* CardSlider.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CardSlider/CardSlider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CardSlider/CardSlider-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CardSlider/CardSlider.modulemap";
+				PRODUCT_MODULE_NAME = CardSlider;
+				PRODUCT_NAME = CardSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9CE2EFDBCF145A601E94D9A4BC36B256 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58B25F70B6E82B15F4AF77381085B52A /* SPPermissions.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SPPermissions/SPPermissions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SPPermissions/SPPermissions-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SPPermissions/SPPermissions.modulemap";
+				PRODUCT_MODULE_NAME = SPPermissions;
+				PRODUCT_NAME = SPPermissions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0EDED25805EF2A339CADB0FA51F2D0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EC7794CF59222910A2FB348463713AB /* CardSlider.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CardSlider";
+				DEVELOPMENT_TEAM = GZ44K8J8CT;
+				IBSC_MODULE = CardSlider;
+				INFOPLIST_FILE = "Target Support Files/CardSlider/ResourceBundle-CardSlider-CardSlider-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = CardSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		CE8A04D692B6E64BFF13B9812F8728D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5560CDB4A059BFE53FF3D0EB1F44F95 /* Pods-FibonaccisLens.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FibonaccisLens/Pods-FibonaccisLens-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FibonaccisLens/Pods-FibonaccisLens.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D460D476AA6F3398EE3D4A5C8871BDA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EC7794CF59222910A2FB348463713AB /* CardSlider.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CardSlider/CardSlider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CardSlider/CardSlider-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CardSlider/CardSlider.modulemap";
+				PRODUCT_MODULE_NAME = CardSlider;
+				PRODUCT_NAME = CardSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F87C74A86E843C6F1804EE46054B9FC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9E025041173C6BE6CB331CE1648C42C /* Pods-FibonaccisLens.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FibonaccisLens/Pods-FibonaccisLens-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FibonaccisLens/Pods-FibonaccisLens.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3320A5F0D491AB206F963E11694A4315 /* Build configuration list for PBXNativeTarget "CardSlider-CardSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29228D4B6623FA86F389AC0F7C758ED4 /* Debug */,
+				B0EDED25805EF2A339CADB0FA51F2D0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		490E8AC56B1C2748B921D3910C7446F5 /* Build configuration list for PBXNativeTarget "Pods-FibonaccisLens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8A04D692B6E64BFF13B9812F8728D0 /* Debug */,
+				F87C74A86E843C6F1804EE46054B9FC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A16B0C526AE8E518B1087750B453D78 /* Build configuration list for PBXNativeTarget "CardSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				998DE0E74F706CC49F8303E5C37D65EA /* Debug */,
+				D460D476AA6F3398EE3D4A5C8871BDA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5625DCB05D46A4175613470826AA273C /* Build configuration list for PBXNativeTarget "SPPermissions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2634577ABCD2990A8731A0CEC1AA3FDA /* Debug */,
+				9CE2EFDBCF145A601E94D9A4BC36B256 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E1DA40504A77A26A9C62FE824BF52DC /* Build configuration list for PBXNativeTarget "SPPermissions-SPPermissions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8084B340AE32A005EF83EEEF6D4A973B /* Debug */,
+				25033327065C16B7747986FFDC04FD89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

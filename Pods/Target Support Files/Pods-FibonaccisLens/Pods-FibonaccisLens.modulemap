@@ -1,0 +1,6 @@
+framework module Pods_FibonaccisLens {
+  umbrella header "Pods-FibonaccisLens-umbrella.h"
+
+  export *
+  module * { export * }
+}

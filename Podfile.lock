@@ -1,0 +1,28 @@
+PODS:
+  - CardSlider (0.1.0)
+  - SPPermissions/Camera (6.8.4):
+    - SPPermissions/Core
+  - SPPermissions/Core (6.8.4)
+  - SPPermissions/LocationWhenInUse (6.8.4):
+    - SPPermissions/Core
+  - SPPermissions/PhotoLibrary (6.8.4):
+    - SPPermissions/Core
+
+DEPENDENCIES:
+  - CardSlider
+  - SPPermissions/Camera
+  - SPPermissions/LocationWhenInUse
+  - SPPermissions/PhotoLibrary
+
+SPEC REPOS:
+  trunk:
+    - CardSlider
+    - SPPermissions
+
+SPEC CHECKSUMS:
+  CardSlider: 0a8f5f17f5a76701771794b07fdaeddc512358c8
+  SPPermissions: 5bcd18d1f599bdd008182bcbcc0b1c9eb59787a5
+
+PODFILE CHECKSUM: ddc00c0ed095af15168baadd0ea0661c5020d107
+
+COCOAPODS: 1.11.2
